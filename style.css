@@ -1,0 +1,158 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Menambahkan margin-top pada navbar */
+.navbar {
+  /* Atau bisa menggunakan padding jika perlu penyesuaian lebih */
+  z-index: 100; /* Pastikan navbar berada di atas konten lainnya */
+  background-color: #49a141;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background-image: url("./src/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Default height */
+  margin-top: 0;
+}
+
+/* Aturan untuk tampilan mobile */
+@media (max-width: 767px) {
+  .hero {
+    height: 60vh; /* Mengurangi tinggi pada tampilan mobile */
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semitransparan gelap */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 50px 20px; /* Padding dikurangi agar lebih kompak */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Memastikan teks berada di tengah secara vertikal */
+}
+.hero-content h1 {
+  font-size: 2.5rem; /* Ukuran font untuk h1 lebih kecil */
+  margin-bottom: 0; /* Menghapus margin bawah */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Efek bayangan */
+}
+
+.hero-content p {
+  font-size: 1.2rem; /* Ukuran font untuk paragraf lebih kecil */
+  margin-top: 0; /* Menghapus margin atas */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Efek bayangan */
+}
+
+@media (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 1.8rem; /* Mengurangi ukuran font lebih kecil pada perangkat mobile */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Menyesuaikan ukuran font pada mobile */
+  }
+}
+
+#footer {
+  background: linear-gradient(to bottom, #297810, #49a141);
+}
+
+/* profile */
+
+#logoTengah{
+  width: 200px;
+  height: 300px;
+}
+#sejarah{
+  text-align: justify;
+
+}
+
+/*POP-UP*/
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: rgba(255, 255, 255, 0.6);
+    padding: 30px; /* Ubah ukuran padding agar lebih besar */
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    max-width: 800px; /* Atur ukuran maksimum pop-up */
+    width: 90%; /* Pastikan responsif di perangkat kecil */
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*galeri desa*/
+.custom-header {
+  background-color: #49a141; /* Warna biru */
+  color: white; /* Warna teks */
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/*ini berita*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #28a745; /* Warna hijau */
+    padding: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*detail*/

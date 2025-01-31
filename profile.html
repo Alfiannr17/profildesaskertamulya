@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a
+          class="navbar-brand mx-0 p-1 d-flex align-items-center"
+          href="#"
+          id="logo"
+        >
+          <img
+            src="src/logo.png"
+            class="me-2 ms-3"
+            style="height: 70px; width: 50px"
+          />
+          <div class="d-flex ms-3 flex-column text-white">
+            <span class="fw-bold">Desa Kertamulya</span>
+            <span class="small fw-light">Kabupaten Karawang</span>
+          </div>
+        </a>
+
+        <!-- Toggler Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-lg-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav me-4">
+            <li class="nav-item me-5">
+              <a class="nav-link text-white fw-bold fs-5" href="./index.html"
+              
+              >Beranda</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white fw-bold fs-5" href="./profile.html"
+                >Profile</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white fw-bold fs-5" href="./berita.html"
+                >Berita</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5" href="./apbd.html"
+                >APBD</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <section class="heroProfile py-5 mt-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Bagian Kiri -->
+          <div class="col-md-6 text-center">
+            <img
+              src="./src/karawang-seeklogo.png"
+              alt="Logo Desa"
+              class="img-fluid mb-3"
+              id="logoTengah"
+            />
+            <h5 class="fw-bold">Desa Kertamulya</h5>
+          </div>
+
+          <!-- Bagian Kanan -->
+          <div class="col-md-6">
+            <!-- Visi -->
+            <div class="mb-4">
+              <h4 class="fw-bold">Visi</h4>
+              <p>
+                “Terwujudnya masyarakat Desa Kertamulya yang sejahtera, yang
+                ditunjang oleh sektor pertanian dilandasi oleh iman iman dan
+                taqwa”
+              </p>
+            </div>
+            <!-- Misi -->
+            <div>
+              <h4 class="fw-bold">Misi</h4>
+              <p>
+                Dalam rangka untuk mencapai visi tersebut perlu adanya langkah
+                langkah untuk mencapai apa yang hendak diinginkan tersebut, misi
+                desa Kertamulya disusun dengan pendekatan parisipatif dan
+                pertimbangan potensi dan sumber daya manusia yang ada sebagai
+                berikut :
+              </p>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class=""></i>
+                  -Memperbaiki sarana dan prasana jalan lingkungan,
+                </li>
+                <li class="mb-2">
+                  <i class=""></i>
+                  -Memperbaiki sarana prasarana saluran air untuk persawahan.
+                </li>
+                <li class="mb-2">
+                  <i class=""></i>
+                  -Meningkatkan akses permodalan untuk usaha ekonomi kecil
+                  pedesaan.
+                </li>
+                <li>
+                  <i class=""></i>
+                  -Meningkatkan pendidikan life skill/keterampilan sebagai
+                  pendidikan dasar sekaligus sebagai modal dasar
+                  bermatapencaharian masyarakat desa yang memiliki keahlian yang
+                  dapat bersaing di dunia pekerjaan.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- struktural section -->
+    <section class="mt-4 mx-3 mx-md-5 p-3 p-md-5">
+      <div class="px-2 px-md-5">
+        <div
+          class="text-success fs-4 fs-md-3 fw-bold text-md-start text-center"
+        >
+          Struktural Desa
+        </div>
+        <p class="text-justify text-md-start">
+          Struktur ini berfungsi untuk memastikan jalannya administrasi,
+          pelayanan publik, serta pembangunan desa secara efektif dan
+          transparan. Dengan adanya bagan ini, masyarakat dapat mengetahui peran
+          serta tanggung jawab setiap bagian dalam pemerintahan desa.
+        </p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./src/struktur.png"
+          alt="Struktur Desa"
+          class="img-fluid img-thumbnail mx-auto d-block"
+          style="max-width: 100%; width: 600px"
+        />
+      </div>
+    </section>
+    <!-- peta section -->
+    <section class="mt-4 mx-3 mx-md-5 p-3 p-md-5">
+      <div class="px-2 px-md-5">
+        <div
+          class="text-success fs-4 fs-md-3 fw-bold text-md-start text-center"
+        >
+          Peta Desa
+        </div>
+        <p class="text-justify text-md-start">
+          Peta ini memberikan informasi penting tentang tata ruang desa, seperti
+          area pertanian, permukiman, serta infrastruktur utama.
+        </p>
+      </div>
+      <div class="text-center">
+        <img
+          src="./src/PETA ADM 1.png"
+          alt="Struktur Desa"
+          class="img-fluid img-thumbnail mx-auto d-block"
+          style="max-width: 100%; width: 600px"
+        />
+      </div>
+    </section>
+    <!-- sejarah section -->
+    <section>
+      <div class="mt-4 mx-3 mx-md-5 p-5 p-md-5">
+        <div
+          class="text-success fs-4 fs-md-3 fw-bold text-md-start text-center mb-3"
+        >
+          Sejarah Desa
+        </div>
+        <div class="text-justify text-md-start" id="sejarah">
+          <p>
+            Desa Kertamulya memiliki sejarah panjang yang dimulai sejak era
+            kolonial Belanda. Pada tahun 1914-1923, desa ini masih dikenal
+            dengan nama Desa Gempollor dan dipimpin oleh Barengos/Sarem dalam
+            sistem pemerintahan desa yang telah berbentuk otonomi. Selanjutnya,
+            kepemimpinan dilanjutkan oleh Gerot/Gentong pada tahun 1924-1932,
+            yang menandai awal pembangunan pintu air atau bendungan.
+          </p>
+          <p>
+            Pada tahun 1932-1940, terjadi pergantian kepala desa kepada Ander
+            Ajuhari/Karto, yang dalam masa kepemimpinannya, tanaman padi hanya
+            sekali setahun. Setelah itu, kepemimpinan berpindah ke Jami/Ompong
+            (1940-1948) yang memimpin selama delapan tahun. Tahun 1948-1956
+            ditandai dengan pembangunan lumbung padi desa, yang membuat
+            masyarakat lebih sejahtera, meskipun sempat terjadi serangan
+            penyakit kudis. Kepala desa saat itu adalah Darkim.
+          </p>
+          <p>
+            Pada periode 1956-1968, kepemimpinan desa berada di tangan Asdi,
+            yang menghadapi berbagai fitnah serta perubahan dalam pola pertanian
+            akibat Revolusi Hijau, di mana musim tanam menjadi dua kali setahun.
+            Tahun 1968-1978, desa mengalami perubahan sosial dengan
+            menghilangnya leuit godag akibat masuknya karung, serta peralihan
+            konsumsi beras bulgur yang dicampur jagung. Kepemimpinan desa saat
+            itu dipegang oleh Napsir/Daud, yang menjalankan program pembagian
+            nasi bungkus dan memanfaatkan eceng gondok sebagai bahan makanan.
+          </p>
+          <p>
+            Pada tahun 1978-1981, kepala desa H. Anwar memimpin pembangunan
+            irigasi permanen, namun desa mengalami kegagalan panen yang
+            mengakibatkan kerugian masyarakat. Tahun 1981-1984, H. Sujai
+            memimpin dengan melibatkan masyarakat dalam program Padat Karya,
+            meskipun terjadi serangan ulat di sawah. Selanjutnya, di tahun
+            1984-1985, pembangunan jalan aspal di wilayah desa menjadi salah
+            satu pencapaian utama di bawah kepemimpinan Kayat.
+          </p>
+          <p>
+            Periode 1985-1993 ditandai dengan pemilihan kepala desa baru, yang
+            dipegang oleh H. Muhtar. Masa ini juga mencatat kunjungan Wakil
+            Gubernur Jawa Barat pada panen perdana serta munculnya serangan hama
+            kupu-kupu yang merusak padi. Tahun 1993-2001, kepemimpinan berpindah
+            ke M. Sanusi, yang menghadapi serangan tikus besar-besaran dan
+            pelaksanaan program IDT, meskipun terjadi penyimpangan dalam
+            pelaksanaannya.
+          </p>
+          <p>
+            Tahun 2001-2008, M. Sunarya memimpin desa di tengah tuntutan
+            masyarakat terhadap kebijakan bupati mengenai masa jabatan kepala
+            desa dan peningkatan honor aparatur desa. Pada periode 2008-2014,
+            kepemimpinan desa dipegang oleh H. Enjen, di mana desa mulai menjadi
+            desa percontohan (prototype). Ia kembali terpilih pada 2015-2021,
+            dengan fokus pada pemilihan kepala desa, kenaikan dana alokasi desa,
+            serta berbagai pembangunan.
+          </p>
+          <p>
+            Pada 2021-2027, kepala desa yang terpilih adalah Suryanto, yang
+            terus melanjutkan pembangunan dan perbaikan di Desa Kertamulya.
+            Dengan sejarah panjang ini, Desa Kertamulya telah mengalami berbagai
+            perubahan signifikan, dari sistem pertanian, infrastruktur, hingga
+            dinamika sosial dan politik yang membentuk desa seperti yang dikenal
+            saat ini.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section>
+      <div class="container-fluid mt-5 text-white" id="footer">
+        <div class="row flex-column flex-md-row p-3 p-md-5">
+          <!-- Logo Desa - Side by side on both mobile and desktop -->
+          <div class="col-12 col-md-6 p-3 p-md-5">
+            <div
+              class="d-flex align-items-center justify-content-between justify-content-md-start"
+            >
+              <!-- Logo Desa -->
+              <div class="me-md-4">
+                <img
+                  src="./src/karawang-seeklogo.png"
+                  alt="Logo Desa"
+                  class="img-fluid footer-logo"
+                  style="width: 100px; max-width: 150px; height: auto"
+                />
+              </div>
+
+              <!-- Informasi Desa -->
+              <div class="text-end text-md-start">
+                <p class="mb-1">Desa Kertamulya</p>
+                <p class="mb-1">Kecamatan Pedes</p>
+                <p class="mb-1">Kabupaten Karawang</p>
+                <p class="mb-0">Provinsi Jawa Barat</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tautan Cepat -->
+          <div class="col-12 col-md-3 p-3 p-md-5">
+            <p class="fw-bold text-start">Tautan Cepat</p>
+            <div class="d-flex flex-column">
+              <a
+                href="./index.html"
+                class="text-white mb-2 text-start"
+                style="text-decoration: none"
+              >
+                Beranda
+              </a>
+              <a
+                href="./profile.html"
+                class="text-white mb-2 text-start"
+                style="text-decoration: none"
+              >
+                Profile
+              </a>
+              <a
+                href="./berita.html"
+                class="text-white mb-2 text-start"
+                style="text-decoration: none"
+              >
+                Berita
+              </a>
+              <a
+                href="./apbd.html"
+                class="text-white text-start"
+                style="text-decoration: none"
+              >
+                APBD
+              </a>
+            </div>
+          </div>
+
+          <!-- Kontak Desa -->
+          <div class="col-12 col-md-3 p-3 p-md-5">
+            <p class="mb-3 fw-bold text-start">Kontak Desa</p>
+            <div class="d-flex flex-column">
+              <!-- Email Contact -->
+              <div class="d-flex align-items-center mb-3">
+                <div class="me-3 d-flex align-items-center">
+                  <img
+                    src="./src/icon/mail.png"
+                    alt="Mail Icon"
+                    class="img-fluid"
+                    style="max-width: 25px; height: auto"
+                  />
+                </div>
+                <div class="flex-grow-1 text-break">
+                  <span>desakertamulya@gmail.com</span>
+                </div>
+              </div>
+
+              <!-- Operating Hours -->
+              <div class="d-flex align-items-center mb-3">
+                <div class="me-3 d-flex align-items-center">
+                  <img
+                    src="./src/icon/jam.png"
+                    alt="Time Icon"
+                    class="img-fluid"
+                    style="max-width: 25px; height: auto"
+                  />
+                </div>
+                <div class="flex-grow-1">
+                  <span>00 : 00 - 00 : 00 WIB</span>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="d-flex align-items-start">
+                <div class="me-3 d-flex align-items-start pt-1">
+                  <img
+                    src="./src/icon/home.png"
+                    alt="Home Icon"
+                    class="img-fluid" 
+                    style="max-width: 25px; height: auto"
+                  />
+                </div>
+                <div class="flex-grow-1 text-break">
+                  <a href="https://maps.app.goo.gl/JdKdqVXUjH2WgsZm9" target="_blank" rel="noopener norefferer" style="text-decoration: none; color: inherit;"
+                    >Jalan Raya Gempol Lor No. 95 Desa. Kertamulya, Kec. Pedes,
+                    Kab. Karawang
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <style>
+      .footer-logo {
+        max-width: 150px;
+        height: auto;
+      }
+
+      @media (max-width: 767px) {
+        .footer-logo {
+          max-width: 70px;
+        }
+
+        #footer .contact-icon {
+          margin-right: 10px;
+        }
+      }
+    </style>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
